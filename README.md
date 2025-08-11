@@ -20,8 +20,9 @@ Users can browse book details, download available formats, explore subjects, and
 ## 🛠️ Tech Stack
 
 - **Frontend:** React, Tailwind CSS
+- **Backend:** Appwrite
 - **Data Source:** [Gutendex API](https://gutendex.com/)
-- **Build Tool:** Vite / Create React App (depending on your setup)
+- **Build Tool:** Vite 
 
 ---
 
