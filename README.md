@@ -7,19 +7,24 @@ Users can browse book details, download available formats, explore subjects, and
 
 ## 🚀 Features
 
-- **Book Search** – Search by title, author, or keywords.
+- **Intuitive Search** – Users can search books by title, author, or keywords with a smart debounced input to optimize API calls.
+- **Trending Books Section** – Highlights currently popular books, powered by Appwrite’s backend analytics.
 - **Book Details Page** – Displays:
   - Download links in multiple formats
   - Subject tags
   - Book summary
 - **Responsive Design** – Fully optimized for desktop, tablet, and mobile.
 - **Clean UI** – Styled with Tailwind CSS for modern and accessible design.
+- **Error Handling & Loading States** – Clear feedback when no results are found or when data is loading.
+- **Backend Integration** – Utilizes Appwrite for backend services, including search count updates and trending data retrieval.
+
+
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React, Tailwind CSS
+- **Frontend:** React (Hooks & Debouncing), Tailwind CSS
 - **Backend:** Appwrite
 - **Data Source:** [Gutendex API](https://gutendex.com/)
 - **Build Tool:** Vite 
@@ -42,6 +47,17 @@ Users can browse book details, download available formats, explore subjects, and
 
 4. **Open your browser at:**
 http://localhost:5173
+
+## What I Learned
+Efficient API integration and handling asynchronous data in React.
+
+Managing backend services with Appwrite to add custom functionality beyond public APIs.
+
+Implementing debounced search inputs to reduce unnecessary network requests.
+
+Designing a clean, modern, and accessible UI with Tailwind CSS.
+
+Handling edge cases and improving UX with loading indicators and error messages.
 
 ## 📷 Screenshots
 ![Homepage Screenshot](src/assets/home_desk.jpeg)
